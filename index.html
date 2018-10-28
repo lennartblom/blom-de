@@ -50,16 +50,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about" id="nav-about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#photography">Photography</a>
+                    <a class="nav-link js-scroll-trigger" href="#photography" id="nav-photography">Photography</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#platforms">Platforms</a>
+                    <a class="nav-link js-scroll-trigger" href="#platforms" id="nav-platforms">Platforms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#signup" id="nav-contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -82,11 +82,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h2 class="text-white mb-4">About this portfolio</h2>
-                <p class="text-white-50">
-                    This portfolio should simply provide a few <strong>links and information</strong> about my
-                    <strong>professional</strong> and <strong>private</strong> content that I love to share!
-                </p>
+                <h2 class="text-white mb-4" id="about-headline"></h2>
+                <p class="text-white-50" id="about-text"></p>
             </div>
         </div>
         <img src="img/ipad.png" class="img-fluid" alt="">
@@ -102,15 +99,9 @@
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
-                    <h4>Photography</h4>
+                    <h4 id="photography-headline"></h4>
                     <p><a href="http://lb-photography.de" target="_blank">lb-photography.de</a></p>
-                    <p class="text-black-50 mb-0">My photo blog collects some of my photo albums
-                        that I collected during my time as a <strong>amateur photographer</strong>. I started out as a
-                        photographer for
-                        the <strong>Nord West Cycling Team</strong> (<a href="http://nw-ct.de"
-                                                                        target="_blank">nw-ct.de</a>) and went on
-                        to collect impressions of some beautiful countries during my <strong>(hiking) holidays</strong>!
-                    </p>
+                    <p class="text-black-50 mb-0" id="photography-text"></p>
                 </div>
             </div>
         </div>
@@ -129,9 +120,7 @@
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <h4 class="text-white"><a href="https://www.linkedin.com/in/lennart-blom-5b28a1125/"
                                                       target="_blank">LinkedIn</a></h4>
-                            <p class="mb-0 text-white-50">
-                                My professional qualifications, employee information and companies I am interested in.
-                            </p>
+                            <p class="mb-0 text-white-50" id="platforms-linkedin"></p>
                             <hr class="d-none d-lg-block mb-0 ml-0">
                         </div>
                     </div>
@@ -150,11 +139,7 @@
                         <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4 class="text-white"><a href="http://github.com/lennartblom" target="_blank">Github</a>
                             </h4>
-                            <p class="mb-0 text-white-50">
-                                Some old university projects and attempts to contribute to open source projects. But
-                                still looking for a workplace and the time/energy to give something back to the open
-                                source magic!
-                            </p>
+                            <p class="mb-0 text-white-50" id="platforms-github"></p>
                             <hr class="d-none d-lg-block mb-0 mr-0">
                         </div>
                     </div>
@@ -173,10 +158,7 @@
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <h4 class="text-white"><a href="https://twitter.com/LennartBlom" target="_blank">Twitter</a>
                             </h4>
-                            <p class="mb-0 text-white-50">
-                                Not very active, but sometimes you can have a glance at my humor, my interests about tech
-                                and stuff that fascinates me.
-                            </p>
+                            <p class="mb-0 text-white-50" id="platforms-twitter"></p>
                             <hr class="d-none d-lg-block mb-0 ml-0">
                         </div>
 
@@ -196,10 +178,7 @@
                         <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4 class="text-white"><a href="https://stackoverflow.com/story/lblom" target="_blank">Stackoverflow</a>
                             </h4>
-                            <p class="mb-0 text-white-50">
-                                My developer story displayed by stackoverflow's feature. Containing some overview about
-                                my recent <strong>education, projects and employees</strong>.
-                            </p>
+                            <p class="mb-0 text-white-50" id="platforms-stackoverflow"></p>
                             <hr class="d-none d-lg-block mb-0 mr-0">
                         </div>
                     </div>
@@ -216,7 +195,7 @@
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-                <h5 class="text-white-50 mb-5">That's about it... enjoy the view</h5>
+                <h5 class="text-white-50 mb-5" id="contact-slogan"></h5>
             </div>
         </div>
     </div>
@@ -236,10 +215,7 @@
                         <a href="https://www.instagram.com/_photography.lb_/" target="_blank"><h4
                                 class="text-uppercase m-0">Instagram</h4></a>
                         <hr class="my-4">
-                        <div class="small text-black-50">No selfies, boomerangs or filters. <br>
-                            <br>Just trying to capture some
-                            <strong>beautiful nature</strong> or <strong>city impressions</strong>, which seemed to be nice to share!
-                        </div>
+                        <div class="small text-black-50" id="contact-instagram"></div>
                     </div>
                 </div>
             </div>
@@ -248,17 +224,9 @@
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
                         <i class="fas fa-thumbs-up text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Thank you</h4>
+                        <h4 class="text-uppercase m-0" id="contact-thanks-headline"></h4>
                         <hr class="my-4">
-                        <div class="small text-black-50">
-                            To the creator of this wonderful single page template. It was
-                            a pleasure to modify and work on it.<br>
-                            <br>
-                            Credit goes to <a href="https://twitter.com/davidmillerskt" target="_blank">David Miller</a>
-                            and his contributors on his
-                            <a href="https://github.com/BlackrockDigital/startbootstrap-grayscale" target="_blank">Github
-                                repo</a>
-                        </div>
+                        <div class="small text-black-50" id="contact-thanks-text"></div>
                     </div>
                 </div>
             </div>
@@ -267,7 +235,7 @@
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
                         <i class="fas fa-envelope text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Contact</h4>
+                        <h4 class="text-uppercase m-0" id="contact-contact"></h4>
                         <hr class="my-4">
                         <div class="small text-black-50">
 
@@ -310,7 +278,7 @@
 <!-- Footer -->
 <footer class="bg-black small text-center text-white-50">
     <div class="container">
-        Copyright &copy; blom.de 2018 | <a href="imprint.html">Imprint</a>
+        Copyright &copy; blom.de 2018 | <a href="imprint.html" id="footer-imprint"></a>
     </div>
 </footer>
 

@@ -1,17 +1,17 @@
 {
   "tagline": {
-    "text": "Enthusiastisch & leidenschaftlich für Sport, Fotografie, Software-Entwicklung und alle Arten von technischen Krams.",
-    "button": "Weiterlesen"
+    "text": "Enthusiast & begeistert für Sport, Fotografie, Software-Entwicklung und alle Arten von technischen Krams.",
+    "button": "Weiterschauen"
   },
   "navigation": {
-    "about": "Über",
+    "about": "Infos",
     "photography": "Fotografie",
     "platforms": "Plattformen",
     "contact": "Kontakt"
   },
   "about": {
     "headline": "Über dieses Portfolio",
-    "text": "Dieses Portfolio soll prinzipiell einfach ein <strong>paar Verlinkungen und Informationen<strong> über meine <strong>beruflichen und privaten</strong> Inhalte bereitstellen, die ich gerne teilen möchte!"
+    "text": "Dieses Portfolio soll prinzipiell einfach ein <strong>paar Links und Informationen</strong> über meine <strong>beruflichen und privaten</strong> Inhalte bereitstellen, die ich gerne teilen möchte!"
   },
   "photography": {
     "headline": "Fotografie",
@@ -25,8 +25,8 @@
   },
   "contact": {
     "slogan": "Das war's auch schon... genieß die Aussicht!",
-    "instagram": ">Keine Selfies, Boomerangs oder Filter. <br><br>Nur Versuche <strong>schöne Natur</strong> oder <strong>Stadt-Impressionen</strong> einzufangen, was schön zum Teilen schien!",
-    "thanks-title": "Vielen Dank",
+    "instagram": "Keine Selfies, Boomerangs oder Filter. <br><br>Nur Versuche <strong>schöne Natur</strong> oder <strong>Stadt-Impressionen</strong> einzufangen, die schön zum Teilen schienen!",
+    "thanks-headline": "Vielen Dank",
     "thanks-text": "An den Ersteller dieses tollen one-page Templates. Es war eine Freude es zu bearbeiten und daran zu arbeiten.<br> <br> Anerkennung geht an <a href=\"https://twitter.com/davidmillerskt\" target=\"_blank\">David Miller</a> und die Mitwirkenden seines <a href=\"https://github.com/BlackrockDigital/startbootstrap-grayscale\" target=\"_blank\">Github Repositories</a>",
     "contact": "Kontakt"
   },
