@@ -11,6 +11,26 @@
   },
   "about": {
     "headline": "About this portfolio",
-    "text": "This portfolio should simply provide a few links and information about my professional and private content that I love to share!"
+    "text": "This portfolio should simply provide a few <strong>links and information</strong> about my <strong>professional</strong> and <strong>private</strong> content that I love to share!"
+  },
+  "photography": {
+    "headline": "Photography",
+    "text": "My photo blog collects some of my photo albums that I collected during my time as a <strong>amateur photographer</strong>. I started out as a photographer for the <strong>Nord West Cycling Team</strong> (<a href=\"http://nw-ct.de\" target=\"_blank\">nw-ct.de</a>) and went on to collect impressions of some beautiful countries during my <strong>(hiking) holidays</strong>!"
+  },
+  "platforms": {
+    "linkedin": "My professional qualifications, employee information and companies I am interested in.",
+    "github": "Some old university projects and attempts to contribute to open source projects. But still looking for a workplace and the time/energy to give something back to the open source magic!",
+    "twitter": "Not very active, but sometimes you can have a glance at my humor, my interests about tech and stuff that fascinates me.",
+    "stackoverflow": "My developer story displayed by stackoverflow's feature. Containing some overview about my recent education, projects and employees."
+  },
+  "contact": {
+    "slogan": "That's about it... enjoy the view",
+    "instagram": ">No selfies, boomerangs or filters. <br><br>Just trying to capture some <strong>beautiful nature</strong> or <strong>city impressions</strong>, which seemed to be nice to share!",
+    "thanks-title": "",
+    "thanks-text": "To the creator of this wonderful single page template. It was a pleasure to modify and work on it.<br> <br> Credit goes to <a href=\"https://twitter.com/davidmillerskt\" target=\"_blank\">David Miller</a> and his contributors on his <a href=\"https://github.com/BlackrockDigital/startbootstrap-grayscale\" target=\"_blank\">Github repo</a>",
+    "contact": "contact"
+  },
+  "footer": {
+    "imprint": "Imprint"
   }
 }
