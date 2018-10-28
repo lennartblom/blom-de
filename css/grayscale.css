@@ -338,3 +338,7 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.locals-switch-button {
+  padding: 5px;
+}
