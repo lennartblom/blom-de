@@ -1,0 +1,16 @@
+{
+  "tagline": {
+    "text": "Enthusiastic & passionate about sports, photography, software-engineering and all kinds of sophisticated stuff",
+    "button": "Dive in"
+  },
+  "navigation": {
+    "about": "About",
+    "photography": "Photography",
+    "platforms": "Platforms",
+    "contact": "Contact"
+  },
+  "about": {
+    "headline": "About this portfolio",
+    "text": "This portfolio should simply provide a few links and information about my professional and private content that I love to share!"
+  }
+}
