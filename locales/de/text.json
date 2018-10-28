@@ -2,5 +2,35 @@
   "tagline": {
     "text": "Enthusiastisch & leidenschaftlich für Sport, Fotografie, Software-Entwicklung und alle Arten von technischen Krams.",
     "button": "Weiterlesen"
+  },
+  "navigation": {
+    "about": "Über",
+    "photography": "Fotografie",
+    "platforms": "Plattformen",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "headline": "Über dieses Portfolio",
+    "text": "Dieses Portfolio soll prinzipiell einfach ein <strong>paar Verlinkungen und Informationen<strong> über meine <strong>beruflichen und privaten</strong> Inhalte bereitstellen, die ich gerne teilen möchte!"
+  },
+  "photography": {
+    "headline": "Fotografie",
+    "text": "Mein Fotoblom sammelt einige Alben, die ich während meiner Zeit als <strong>Freizeitfotograf</strong> gesammelt hab. Ich habe als Fotograf des <strong>Nord West Cycling Teams</strong> (<a href=\"http://nw-ct.de\" target=\"_blank\">nw-ct.de</a>) gestartet und hab weitergemacht Eindrücke von schönen Ländern während meiner <strong>(Wander)Urlaube</strong> zu sammeln!"
+  },
+  "platforms": {
+    "linkedin": "Meine beruflichen Qualifikationen, Mitarbeiterinformationen und Unternehmen, die mich interessieren.",
+    "github": "Einige alte Universitätsprojekte und Versuche, zu Open-Source-Projekten beizutragen. Aber immer noch auf der Suche nach einem Arbeitsplatz und der Zeit/Energie, um der Open-Source-Magie etwas zurückzugeben!",
+    "twitter": "Nicht sehr aktiv, aber manchmal kann man einen Blick auf meinen Humor, meine Begeisterung für Technik und Dinge werfen, die mich faszinieren.",
+    "stackoverflow": "Eine Übersicht meiner Entwickler-\"Story\", angezeigt durch Stackoverflows Übersicht. Mit einem Überblick über meine bisherigen Ausbildungen, Projekte und Arbeitgeber."
+  },
+  "contact": {
+    "slogan": "Das war's auch schon... genieß die Aussicht!",
+    "instagram": ">Keine Selfies, Boomerangs oder Filter. <br><br>Nur Versuche <strong>schöne Natur</strong> oder <strong>Stadt-Impressionen</strong> einzufangen, was schön zum Teilen schien!",
+    "thanks-title": "Vielen Dank",
+    "thanks-text": "An den Ersteller dieses tollen one-page Templates. Es war eine Freude es zu bearbeiten und daran zu arbeiten.<br> <br> Anerkennung geht an <a href=\"https://twitter.com/davidmillerskt\" target=\"_blank\">David Miller</a> und die Mitwirkenden seines <a href=\"https://github.com/BlackrockDigital/startbootstrap-grayscale\" target=\"_blank\">Github Repositories</a>",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "imprint": "Impressum"
   }
 }
