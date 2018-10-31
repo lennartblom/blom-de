@@ -207,6 +207,36 @@
   }
 }
 
+.linkedin-section {
+  padding: 10rem 0;
+  background: url("../img/linkedin-box-background.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.github-section {
+  padding: 10rem 0;
+  background: url("../img/github-box-background.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.twitter-section {
+  padding: 10rem 0;
+  background: url("../img/twitter-box-background.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.stackoverflow-section {
+  padding: 10rem 0;
+  background: url("../img/stackoverflow-box-background.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.stackshare-section {
+  padding: 10rem 0;
+  background: url("../img/stackshare-box-background.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
@@ -227,42 +257,6 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
-
-.linkedin-section {
-  padding: 10rem 0;
-  background: url("../img/linkedin-box-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.github-section {
-  padding: 10rem 0;
-  background: url("../img/github-box-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.twitter-section {
-  padding: 10rem 0;
-  background: url("../img/twitter-box-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.stackoverflow-section {
-  padding: 10rem 0;
-  background: url("../img/stackoverflow-box-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 .contact-section {

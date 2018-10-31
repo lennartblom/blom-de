@@ -40,6 +40,7 @@ function updateContent() {
     document.getElementById('platforms-github').innerHTML = i18next.t('text:platforms:github');
     document.getElementById('platforms-twitter').innerHTML = i18next.t('text:platforms:twitter');
     document.getElementById('platforms-stackoverflow').innerHTML = i18next.t('text:platforms:stackoverflow');
+    document.getElementById('platforms-stackshare').innerHTML = i18next.t('text:platforms:stackshare');
 
     document.getElementById('contact-slogan').innerHTML = i18next.t('text:contact:slogan');
     document.getElementById('contact-contact').innerHTML = i18next.t('text:contact:contact');
