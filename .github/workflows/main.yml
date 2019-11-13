@@ -15,4 +15,6 @@ jobs:
         username: ${{ secrets.ssh_strato_username }}
         password: ${{ secrets.ssh_strato_password }}
         port: 22
-        script: whoami
+        script: |
+          cd blom-de
+          git pull
