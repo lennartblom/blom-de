@@ -1,4 +1,4 @@
-name: Remote SSH Command to update webserver
+name: Connect via SSH and pull latest GIT change
 
 on: [push]
 
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: executing remote ssh commands using password
+    - name: Change directory and git pull
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.ssh_stato_host }}
@@ -16,5 +16,5 @@ jobs:
         password: ${{ secrets.ssh_strato_password }}
         port: 22
         script: |
-          cd blom-de
-          git pull
+          cd blom-de/
+          git pull https://github.com/lennartblom/blom-de.git master
